@@ -5,6 +5,7 @@ spring :
     url: jdbc:mysql://localhost:1977/javathread
     username: javathread
     password: Javathread@123
+    driver-class-name: com.mysql.jdbc.Driver
     apllication : 
     name: savePromoCode
     
