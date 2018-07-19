@@ -1,0 +1,20 @@
+server:
+  port: 8099
+  
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /database
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.H2Dialect     
+  datasource: 
+    url: jdbc:h2:file:D:\\Test\\DBNAME
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+ 
+ 
+    
